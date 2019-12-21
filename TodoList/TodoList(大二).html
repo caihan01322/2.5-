@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="./TodoList(大二).css" />
+</head>
+<body>
+    <header>
+        <br />
+        <label id="logo">Todo List</label>
+        <label id="time"></label>
+    </header>
+    <hr />
+    <main>
+        <br />
+        <div id="add">
+            <input type="text" placeholder="添加事项" autocomplete="off" maxlength="19" id="item" />&nbsp;<button onclick="addItem()">添加</button>
+        </div>
+        <!-- <hr /> -->
+        <br />
+        <h1>未完成事项：</h1>
+        <br />
+        <ol id="lists">
+            <!-- <li><input type="checkbox" onclick="check(this)" class="check" /><span onclick="edit(this)">xxx</span><a onclick="deleteItem(this)">delete</a></li>
+            => <li><input type="checkbox" onclick="check(this)" class="check" /><span onclick="edit(this)"></span><input type="text" class="editor"/>yyy</input><a onclick="deleteItem(this)">delete</a></li> -->
+        </ol>
+    </main>
+    <!-- <hr /> -->
+    <footer>
+        Copyright &copy; 221801322_蔡晗. All Rights Reserved.&nbsp;<a href="javascript:clear()">clear</a>
+    </footer>
+</body>
+<script src="./TodoList(大二).js"></script>
+</html>
