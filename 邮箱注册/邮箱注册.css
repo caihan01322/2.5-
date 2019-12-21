@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+    color: gold;
+}
+form {
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background: url("https://i1.hdslb.com/bfs/archive/9a3340a0bd1fe97ededeeefe93199f0dcc4ea150.jpg") no-repeat;
+    background-size: cover;
+}
+span {
+    color: red;
+}
+input {
+    height: 35px;
+    width: 300px;
+    font-size: 30px;
+    font-family: cursive;
+    border-radius: 8px;
+}
+button {
+    width: 120px;
+    height: 60px; 
+    size: 30px;
+    font-size: 25px;
+    /* font-family: cursive; */
+    color: white;
+    cursor: pointer;
+    background-color: rgb(250,230,115);
+    border-radius: 8px;
+}
