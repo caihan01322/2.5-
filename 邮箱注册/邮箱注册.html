@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>邮箱登录</title>
+    <link rel="stylesheet" href="./邮箱注册.css">
+</head>
+<body>
+    <br />
+    <form>
+        <br />
+        <br />
+        邮箱账号：<input type="email" autocomplete="off" onblur="checkEmail(this)" id="el" title="邮箱格式：xxx@xxx.com，'xxx'中只含字母、数字、下划线、连字符" /><span id="elSpace" style="margin-left: 25px;"></span>&nbsp;<span style="display: none;" id="elOk">✓</span>
+        <br />
+        <span style="display: none;" id="emailError">！邮箱格式有误</span>
+        <br />
+        注册密码：<input type="password" onblur="checkPassword(this)" id="pw" title="9~15 位，不能有重复字符，数字范围[2,8]，必须有三个大写字母，必须包含{#,&,*,?}中的一个" /><span id="pwSpace" style="margin-left: 25px;"></span>&nbsp;<span style="display: none;" id="pwOk">✓</span>
+        <br />
+        <span style="display: none;" id="pwError">！密码格式有误</span>
+        <br />
+        确认密码：<input type="password" onblur="checkRePw(this)" id="rePw" title="9~15 位，不能有重复字符，数字范围[2,8]，必须有三个大写字母，必须包含{#,&,*,?}中的一个" /><span id="rePwSpace" style="margin-left: 25px;"></span>&nbsp;<span style="display: none;" id="rePwOk">✓</span>
+        <br />
+        <span style="display: none;" id="rePwError">！与新密码不匹配</span>
+        <br />
+        <br />
+        <button onclick="register()">注册</button>
+    </form>
+</body>
+<script src="./邮箱注册.js"></script>
+</html>
