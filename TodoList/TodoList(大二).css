@@ -1,0 +1,120 @@
+/* 公共属性
+------------------------------------------ */
+* {
+    margin:0;
+    padding:0;
+}
+a {
+    text-decoration-line: none;
+    color: grey;
+}
+body {
+    /* background: url("https://i1.hdslb.com/bfs/archive/9a3340a0bd1fe97ededeeefe93199f0dcc4ea150.jpg") no-repeat;
+    background-size: cover; */
+    margin: 0 auto;
+    max-width: 1200px;
+    border:3px solid gold;
+    color: gold;
+}
+hr {
+    width: 1200px;
+    border: none;
+    border-top:3px solid gold;
+}
+/* 顶部布局
+------------------------------------------ */
+header {
+    height: 130px;
+    border-top: 3px solid gold;
+    background-color: rgb(34,89,199);
+}
+#time {
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+}
+#logo {
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+/* 主体布局
+------------------------------------------ */
+main {
+    height: 700px;
+    background-color: rgb(34,89,199);
+}
+h1 {
+    text-align: center;
+}
+#add {
+    margin: 0 auto;
+    width: 400px;
+    height: 60px;
+}
+#item {
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    font-family: cursive;
+    border-radius: 8px;
+}
+#add button {
+    /* border: 1px; */
+    width: 70px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 23px;
+    font-family: cursive;
+    color: white;
+    cursor: pointer;
+    background-color: gold;
+    border-radius: 8px;
+}
+span {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+ol {
+    margin: 0 auto;
+    width: 620px;
+    height: 500px;
+    border: 3px solid gold;
+    font-size: 24px;
+    font-family: cursive;
+    overflow-y: scroll;
+}
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border-bottom: 3px solid gold; */
+}
+li > a {
+    float: right;
+    display: block;
+    margin-right: 10px;
+}
+.check {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+}
+.editor {
+    width: 450px;
+    height: 25px;
+    font-size: 23px;
+    font-family: cursive;
+    border-radius: 8px;
+}
+/* 底部布局
+------------------------------------------ */
+footer {
+    height: 50px;
+    border-bottom:3px solid gold;
+    text-align: center;
+    background-color: rgb(34,89,199);
+}
