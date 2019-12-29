@@ -78,8 +78,10 @@ function showItems(data){
         input.setAttribute("class","check");
         input.setAttribute("onclick","check(this)");
         span.setAttribute("onclick","edit(this)");
+        span.setAttribute("title","点击编辑");
         a.setAttribute("href","#");
         a.setAttribute("onclick","deleteItem(this)");
+        a.setAttribute("title","删除");
         li.appendChild(input);
         li.appendChild(span);
         li.appendChild(a);
